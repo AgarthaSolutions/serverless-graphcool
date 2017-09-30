@@ -2,10 +2,13 @@
   "name": "@agartha/serverless-graphcool",
   "version": "0.1.0",
   "description": "Serverless provider and plugin for Graphcool",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/agarthasolutions/serverless-graphcool.git"
+  },
+  "scripts": {
+    "prepublish": "tsc -p"
   },
   "keywords": [
     "serverless",
@@ -19,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/agarthasolutions/serverless-graphcool/issues"
   },
-  "homepage": "https://github.com/agarthasolutions/serverless-graphcool#readme"
+  "homepage": "https://github.com/agarthasolutions/serverless-graphcool#readme",
+  "devDependencies": {
+    "typescript": "^2.5.3"
+  }
 }

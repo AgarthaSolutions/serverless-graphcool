@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "module": "commonjs",
+    "target": "es2015",
+    "sourceMap": false,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "noImplicitThis": true,
+    "strictNullChecks": true,
+    "declaration": true,
+    "outDir": "dist/",
+    "lib": [
+      "es2015",
+      "dom"
+    ]
+  },
+  "include": [
+    "lib/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist/",
+    "test/"
+  ],
+  "paths": {
+    "*": [
+      "typings/*"
+    ]
+  }
+}
