@@ -1,6 +1,6 @@
 {
   "name": "@agartha/serverless-graphcool",
-  "version": "0.1.3",
+  "version": "0.1.0",
   "description": "Serverless provider and plugin for Graphcool",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
