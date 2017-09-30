@@ -1,0 +1,23 @@
+{
+  "name": "@agartha/serverless-graphcool",
+  "version": "0.1.0",
+  "description": "Serverless provider and plugin for Graphcool",
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarthasolutions/serverless-graphcool.git"
+  },
+  "keywords": [
+    "serverless",
+    "graphcool"
+  ],
+  "author": "Agartha Solutions <info@agarthasolutions.com>",
+  "contributors": [
+    "Kim Brandwijk (https:/github.com/kbrandwijk)"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/agarthasolutions/serverless-graphcool/issues"
+  },
+  "homepage": "https://github.com/agarthasolutions/serverless-graphcool#readme"
+}
