@@ -8,7 +8,7 @@
     "url": "git+https://github.com/agarthasolutions/serverless-graphcool.git"
   },
   "scripts": {
-    "prepublish": "tsc -p"
+    "prepublish": "tsc"
   },
   "keywords": [
     "serverless",
